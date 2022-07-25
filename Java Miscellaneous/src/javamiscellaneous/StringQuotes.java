@@ -8,26 +8,26 @@ package javamiscellaneous;
 
 public class StringQuotes {
 
-	public static void main(String[] args) {
-		System.out.println("/\"Hello\"/");
-		System.out.println("/'Hello'/");
-		System.out.println("\"/'Hello'/\"");
+    public static void main(String[] args) {
+        System.out.println("/\"Hello\"/");
+        System.out.println("/'Hello'/");
+        System.out.println("\"/'Hello'/\"");
 
-		System.out.println("\"Hello\"");
-		System.out.println("I love \"Java\" and \"programming\" and \"movies\"");
-		System.out.println("'I love \"Java\" and \"programming\" and \"movies\"'");
-		System.out.println(getXpath("Keshav"));
-		System.out.println(getXpath("Java"));
-		System.out.println(getXpath("123"));
+        System.out.println("\"Hello\"");
+        System.out.println("I love \"Java\" and \"programming\" and \"movies\"");
+        System.out.println("'I love \"Java\" and \"programming\" and \"movies\"'");
+        System.out.println(getXpath("Keshav"));
+        System.out.println(getXpath("Java"));
+        System.out.println(getXpath("123"));
 
-	}
-	
-		public static String getXpath(String name) {
-			String xpath= "//input[@id='"+name+"']";
-					//input[@id='naveen']
-			return xpath;
-		}
-		
-	}
+    }
+
+    public static String getXpath(String name) {
+        String xpath = "//input[@id='" + name + "']";
+        //input[@id='naveen']
+        return xpath;
+    }
+
+}
 
 
